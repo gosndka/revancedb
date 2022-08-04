@@ -33,7 +33,7 @@ jobs:
       - name: Set current date without dashes as env variable
         run: echo "date_now_nodashes=$(date +'%Y%m%d')" >> $GITHUB_ENV
 
-      - uses: r0adkll/sign-android-release@v1
+      
 
       
       - uses: marvinpinto/action-automatic-releases@latest
