@@ -43,6 +43,6 @@ jobs:
           title: "Release ${{ env.date_now }}"
           prerelease: false
           files: |
-            build/SHA-256.txt
-            build/*signed.apk
+            
+            build/*.apk
             vanced-microG.apk
